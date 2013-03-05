@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Import from Google Drive Spreadsheet</title>
+	<script src="js/lib/jquery-1.9.1.min.js"></script>
+	<script src="js/simple-gdata-wrapper.js"></script>
+	<script src="js/demo.js"></script>
+</head>
+<body>
+	<div>
+		<span>https://spreadsheets.google.com/feeds/list/</span>
+		<input type="text" id="key" value="o13394135408524254648.240766968415752635" size="45" />
+		<span>/</span>
+		<input type="text" id="worksheet-id" value="od6" size="3" />
+		<span>/public/values</span>
+		<button id="get-data">Import</button>
+	</div>
+	<div id="result"></div>
+</body>
+</html>
